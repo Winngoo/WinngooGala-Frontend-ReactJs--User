@@ -1,0 +1,20 @@
+/* styles.css */
+.swiper-pagination {
+  bottom: -20vh; /* Positioning */
+  text-align: center; /* Centering the pagination */
+}
+
+.swiper-pagination-bullet {
+  background: #e0e0e0; /* Default bullet color */
+  opacity: 1; /* Ensures the bullet is fully opaque */
+  transition: background 0.3s; /* Smooth transition for hover effect */
+}
+
+.swiper-pagination-bullet-active {
+  background: #f80000; /* Active bullet color */
+  transform: scale(1.2); /* Scale up the active bullet */
+}
+
+.swiper-pagination-bullet:hover {
+  background: #a0aec0; /* Bullet color on hover */
+}
